@@ -1,0 +1,27 @@
+.imagem-carrossel {
+    object-fit: cover;
+    height: 800px;
+}
+
+.fonte-divertida {
+    font-family: 'Life Savers', cursive;
+}
+
+.imagem-card {
+    height: 350px;
+}
+
+@media(max-width: 769px){
+    .imagem-carrossel {
+        object-fit: cover;
+        height: 600px;
+    }
+
+    .margem-grid {
+        margin: 1rem;
+    }
+
+    .altura-embed {
+        height: 500px;
+    }
+}
