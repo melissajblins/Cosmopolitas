@@ -6,7 +6,7 @@ Um presente de aniversário digital feito com Bootstrap.
 2. Carrossel
 3. Jumbotron: Mensagem
 4. Grid: Fotos e Spotify Embed
-5. Tabela
+5. Table: Rank
 6. Cards: Álbum de fotos
 7. Input Group: Lista 
 
