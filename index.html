@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width = device-width, initial-scale = 1">
   <title>Cosmopolitas</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Life+Savers&display=swap" rel="stylesheet">
@@ -15,249 +15,90 @@
 <body>
 
   <header>
-    <nav class="navbar navbar-light bg-light">
-      <a class="navbar-brand" href="#">
-        <img src="source/img/milkshake.svg" width="30" height="30" class="d-inline-block align-top" alt="">
-        Cosmopolitas
-      </a>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand fonte-divertida" href="index.html">Cosmopolitas</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="listas.html">Listas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="fotos.html">Fotos</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Viagens
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="buenos_aires.html">Buenos Aires</a></li>
+                <li><a class="dropdown-item" href="santos.html">Santos</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
-
   </header>
 
   <main>
-    <section id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img class="d-block w-100 imagem-carrossel" src="source/img/republica.jpg" alt="Praça da República">
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100 imagem-carrossel" src="source/img/farol.jpg" alt="Farol Santander">
-        </div>
-      </div>
-      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div>
-
-    <section class="jumbotron jumbotron-fluid m-3">
-      <div class="container">
-        <h1 class="display-4">Olá, carecah!</h1>
-        <p class="lead">Hoje é o seu aniversário e eu queria te presentear com algo especial, então fiz esse site para você.</p>
-        <hr class="my-4">
-        <p>Não esqueça de escutar a playlist etc para ter uma experiência mais imersiva.</p>
-      </div>
-    </section>
 
     <section class="container-fluid grid-intro">
       <div class="row">
-        <div class="col-md-4 margem-grid">
-          <img src="source/img/roda.jpg" class="img-fluid" alt="Roda decepcionante">
+          <img src="source/img/republica.jpg" class="img-fluid imagem-carrossel" alt="Roda decepcionante">
+      </div>
+    </section>
+
+    <section class="container-fluid p-5">
+      <div class="row justify-content-md-center">
+        <div class="col-2 rounded mx-auto d-block">  
+          <h1 class="display-4">Por lugares incríveis!</h1>
+          <p class="lead">Quem é esse site que contempla o amor de duas meninas?</p>
+          <hr class="my-4">
+          <p>Nós não nos lembramos de dias, nós nos lembramos de momentos.</p>
         </div>
-        <div class="col-md-4 margem-grid">
-          <iframe class="embed-responsive-item altura-embed" src="https://open.spotify.com/embed/playlist/0M1hrWOkbsWYWqGK96YLn6?utm_source=generator" width="100%" height="100%"  frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-        </div>
-        <div class="col-md-4 margem-grid">
-          <img src="source/img/jazzb.jpg" class="img-fluid" alt="Jazz-B">
+        <div class="col-8 rounded mx-auto d-block">  
+          <iframe class="embed-responsive-item altura-embed embed-altura" src="https://open.spotify.com/embed/playlist/0M1hrWOkbsWYWqGK96YLn6?utm_source=generator" width="100%" height="100%"  frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
         </div>
       </div>
     </section>
 
-    <section class="container-fluid">
-      <h2 class = "fonte-divertida mt-5 text-center">Do que você mais gostou?</h2>
-      <p class="text-center mb-5">Fiz uma lista das coisas mais legais que fizemos juntas. Ainda sonho com o seu nhoque, mamma mia!</p>
-      <div class="m-0 p-0">
-        <table class="table w-100">
-          <thead class="thead-dark">
-            <tr>
-              <th scope="col">#</th>
-              <th scope="col">Rolê</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th scope="row">1</th>
-              <td>Farol Santander e Bar do Cofre</td>
-            </tr>
-            <tr>
-              <th scope="row">2</th>
-              <td>Ópera no Theatro Municipal</td>
-            </tr>
-            <tr>
-              <th scope="row">3</th>
-              <td>Exposição da Rita Lee</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </section>
-  
-    <section class="container-fluid">
-      <h2 class = "fonte-divertida mt-5 text-center">Por via de regra, tinha que ter um álbum de fotos.</h2>
-      <div class="album bg-light mb-5">
-        <div class="container">
-          <div class="row justify-content-center">
-            <article class="card p-0 m-4 col-12 col-md-4">
-              <img src="source/img/theatro.jpg" class="card-img-top imagens-card" alt="Theatro Municipal">
-              <div class="card-body">
-                <h5 class="card-title">Theatro Municipal</h5>
-                <p class="card-text">YO SOY MARIA DE BUENOS AIRES!</p>
-              </div>
-            </article>
-      
-            <article class="card p-0 m-4 col-12 col-md-4">
-              <img src="source/img/paulista.jpg" class="card-img-top imagens-card" alt="IMS">
-              <div class="card-body">
-                <h5 class="card-title">Paulista do IMS</h5>
-                <p class="card-text">O dia das três espiãs demais.</p>
-              </div>
-            </article>
-      
-            <article class="card p-0 m-4 col-12 col-md-4">
-              <img src="source/img/passagem.jpg" class="card-img-top imagens-card" alt="Passagem Literária">
-              <div class="card-body">
-                <h5 class="card-title">Passagem Literária</h5>
-                <p class="card-text">Você ficou assustada no começo.</p>
-              </div>
-            </article>
-      
-            <article class="card p-0 m-4 col-12 col-md-4">
-              <img src="source/img/noapt1.jpg" class="card-img-top imagens-card" alt="A gente no Setin">
-              <div class="card-body">
-                <h5 class="card-title">Antes da Ópera</h5>
-                <p class="card-text">Foi mágico esse final de semana ao seu lado.</p>
-              </div>
-            </article>
-      
-            <article class="card p-0 m-4 col-12 col-md-4">
-              <img src="source/img/gin.jpg" class="card-img-top imagens-card" alt="Drink do Cofre">
-              <div class="card-body">
-                <h5 class="card-title">Gin Subastor</h5>
-                <p class="card-text">Nunca me senti mais chique.</p>
-              </div>
-            </article>
-      
-            <article class="card p-0 m-4 col-12 col-md-4">
-              <img src="source/img/lispector.jpg" class="card-img-top imagens-card" alt="Exposição Clarice">
-              <div class="card-body">
-                <h5 class="card-title">Exposição Clarice</h5>
-                <p class="card-text">Não se preocupe em entender, viver ultrapassa qualquer entendimento.</p>
-              </div>
-            </article>
 
-            <article class="card p-0 m-4 col-12 col-md-4">
-              <img src="source/img/ibirapuera.jpg" class="card-img-top imagens-card" alt="Ibirapuera">
-              <div class="card-body">
-                <h5 class="card-title">Ibirapuera</h5>
-                <p class="card-text">Eu tava tão nervosa.</p>
-              </div>
-            </article>
-
-            <article class="card p-0 m-4 col-12 col-md-4">
-              <img src="source/img/apt1.jpg" class="card-img-top imagens-card" alt="Setin Downtown República">
-              <div class="card-body">
-                <h5 class="card-title">Vista do Apartamento</h5>
-                <p class="card-text">Só não é mais lindo do que você.</p>
-              </div>
-            </article>
-
-            <article class="card p-0 m-4 col-12 col-md-4">
-              <img src="source/img/farolfora.jpg" class="card-img-top imagens-card" alt="Farol Santander">
-              <div class="card-body">
-                <h5 class="card-title">Farol Santander</h5>
-                <p class="card-text">Te fitei o dia inteiro.</p>
-              </div>
-            </article>
-
-            <article class="card p-0 m-4 col-12 col-md-4">
-              <img src="source/img/rita.jpg" class="card-img-top imagens-card" alt="Rita Lee">
-              <div class="card-body">
-                <h5 class="card-title">MIS: Rita Lee</h5>
-                <p class="card-text">Sua felicidade contagia.</p>
-              </div>
-            </article>
-          </div>
+    <section id="about-section" class="pt-5 pb-5">
+        <div class="container wrapabout">
+            <div class="red"></div>
+            <div class="row">
+                <div class="col-lg-6 align-items-center justify-content-left d-flex mb-5 mb-lg-0">
+                    <div class="blockabout">
+                        <div class="blockabout-inner text-center text-sm-start">
+                            <div class="title-big pb-3 mb-3">
+                                <h3>Quem somos?</h3>
+                            </div>
+                            <p class="description-p text-muted pe-0 pe-lg-0">
+                            Karina e Melissa. Melzinha e Kaka.
+                            </p>
+                            <p class="description-p text-muted pe-0 pe-lg-0">
+                            Esse é o nosso site, das nossas aventuras, das nossas paixões, dos nossos dias. É o nosso álbum.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mt-5 mt-lg-0">
+                    <figure class="potoaboutwrap">
+                      <img src="source/img/praiagrande.jpeg" class="img-fluid" alt="Roda decepcionante">
+                    </figure>
+                </div>
+            </div>
         </div>
-      </div>
     </section>
 
-    <Section class="container-fluid">
-      <h2 class = "fonte-divertida mt-1 text-center">Eu diria que a gente ainda tem muito para fazer!</h2>
-      <p class="text-center mb-5">Eu gosto muito de listas...</p>
-
-      <Section class="container-fluid">
-        <div class="input-group mb-3">
-          <div class="input-group-prepend">
-            <div class="input-group-text">
-              <input type="checkbox" aria-label="Checkbox for following text input">
-            </div>
-          </div>
-          <input type="text" class="form-control" aria-label="Text input with checkbox" placeholder="Arrial do Cabo e Búzios">
-        </div>
-        <div class="input-group mb-3">
-          <div class="input-group-prepend">
-            <div class="input-group-text">
-              <input type="checkbox" aria-label="Checkbox for following text input">
-            </div>
-          </div>
-          <input type="text" class="form-control" aria-label="Text input with checkbox" placeholder="Terminar os filmes do Studio Ghibli">
-        </div>
-        <div class="input-group mb-3">
-          <div class="input-group-prepend">
-            <div class="input-group-text">
-              <input type="checkbox" aria-label="Checkbox for following text input">
-            </div>
-          </div>
-          <input type="text" class="form-control" aria-label="Text input with checkbox" placeholder="SESC da Paulista e MASP">
-        </div>
-        <div class="input-group mb-3">
-          <div class="input-group-prepend">
-            <div class="input-group-text">
-              <input type="checkbox" aria-label="Checkbox for following text input">
-            </div>
-          </div>
-          <input type="text" class="form-control" aria-label="Text input with checkbox" placeholder="Franciulli">
-        </div>
-        <div class="input-group mb-3">
-          <div class="input-group-prepend">
-            <div class="input-group-text">
-              <input type="checkbox" aria-label="Checkbox for following text input">
-            </div>
-          </div>
-          <input type="text" class="form-control" aria-label="Text input with checkbox" placeholder="Descer a serra do mar">
-        </div>
-        <div class="input-group mb-3">
-          <div class="input-group-prepend">
-            <div class="input-group-text">
-              <input type="checkbox" aria-label="Checkbox for following text input">
-            </div>
-          </div>
-          <input type="text" class="form-control" aria-label="Text input with checkbox" placeholder="Paranapiacaba">
-        </div>
-        <div class="input-group mb-3">
-          <div class="input-group-prepend">
-            <div class="input-group-text">
-              <input type="checkbox" aria-label="Checkbox for following text input">
-            </div>
-          </div>
-          <input type="text" class="form-control" aria-label="Text input with checkbox" placeholder="Restaurante Flutuante Caravelas">
-        </div>
-      </Section>
-    </section>
   </main>
+  
   <footer class="bg-dark p-2"></footer>
 
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>
